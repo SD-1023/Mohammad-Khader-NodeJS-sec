@@ -1,0 +1,8 @@
+html 
+    head 
+    body 
+        h2 Books List: 
+        ul 
+            - var books
+            each book in books
+                li id is: #[strong #{book.id}] book name is: #[strong #{book.name}]

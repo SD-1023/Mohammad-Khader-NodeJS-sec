@@ -1,0 +1,13 @@
+GET http://localhost:3001/books
+
+###
+GET http://localhost:3001/books/2023101
+
+###
+POST http://localhost:3001/books
+Content-Type: application/json
+
+{
+    "name":"lastBookk"
+}
+###
